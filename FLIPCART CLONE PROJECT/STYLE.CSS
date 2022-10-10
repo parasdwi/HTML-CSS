@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+*{margin: 0;
+padding: 0;}
+:root {
+    --main-bg-color: rgba(38, 128, 201, 0.87);
+  }
+header{
+    height: 80px;
+    background-color: var(--main-bg-color);
+    z-index: 10;
+}
+a:hover{ text-decoration: underline;
+font-weight: bold;
+}
+nav{ display: flex;
+position: sticky;
+z-index: 5;
+}
+nav ul{ display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 34px;
+    z-index: 4;
+}
+nav ul li a{
+    color: azure;
+    text-decoration: none;
+}
+.LOGO img{ width: 232PX;
+height: 80px;
+position: sticky;
+z-index: 4
+;
+}
+.search{ height: 25px;
+width: 315px;
+margin: 29px;
+margin-right: 10px;
+border-radius: 5px;
+box-shadow :inset 2px 2px 0px 1px;
+background: rgb(232, 234, 243);
+}
+
+button{height:28px;
+width: 53px;
+cursor: pointer;
+margin: 29px 29px 29px 10px;
+border-radius: 4px;
+color: azure;
+background-color: var(--main-bg-color);
+border: white solid 2px;
+}
+button:hover{ text-decoration: underline;
+height: 29px;
+width: 54px;}
+
+.quick{
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    border: solid var(--main-bg-color) 2px;
+    position: sticky;
+    z-index: 3;
+}
+.I1{ height: 506PX;
+margin: 10PX 0;
+position: sticky;
+}
+.I2{height: 584PX;
+    margin: 10PX 0;
+    position: sticky; }
+.card{
+    justify-content: space-between;
+    background-image: url("SL_032921_41810_09.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 1520px 100%;
+    margin: 30PX 0;
+}
+.card h1{font-family: 'Raleway', sans-serif;
+margin: 0 20px;}
+.main{ margin: 10px 20px;
+    display: flex;
+    ;
+}
+.card img { height: 224px;
+    padding: 15px 10px 0 0;
+    margin: 6px 32px;
+    position: sticky;
+}
+.card img:hover{ height: 228px ;
+ cursor: pointer;}
+.card h2{ padding: 10px 0 0 20px;
+ border: white solid 1px;
+ padding: 15px 0;
+}
+.c1 ul li{ list-style: none;
+text-align: center;
+color: rgb(13, 2, 112);
+font-weight: bold;
+}
+.log{ margin-left: 90px;
+}
+.card2{
+    justify-content: space-between;
+    background-image: url("161Z_2107.w015.n001.512B.p15.512.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 1520px 100%;
+    margin: 30PX 0;
+}
+.card2 h1{font-family: 'Raleway', sans-serif;
+margin: 0 20px;
+}
+.card2 img { height: 224px;
+    padding: 15px 10px 0 0;
+    margin: 6px 32px;
+    position: sticky;
+}
+.card2 img:hover{ height: 228px ;
+ cursor: pointer;}
+.card2 h2{ padding: 10px 0 0 20px;
+ border: white solid 1px;
+ padding: 15px 0;
+}
+.c2 ul li{ list-style: none;
+    text-align: center;
+    color: rgb(13, 2, 112);
+    font-weight: bold;}
+footer {background-color: var(--main-bg-color);
+        text-align: center;
+       margin: 5px;}
